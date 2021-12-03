@@ -1,4 +1,5 @@
 ﻿using SOLID_Example.OCP.After;
+using System;
 
 namespace SOLID_Example.LSP.Before
 {
@@ -9,7 +10,7 @@ namespace SOLID_Example.LSP.Before
 
         public override decimal GetSpecialPrice()
         {
-            return Price;
+            throw new NotImplementedException();
         }
     }
 }
